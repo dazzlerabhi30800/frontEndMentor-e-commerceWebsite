@@ -459,7 +459,7 @@ body {
 
     .shoe-wrapper {
         width : 30%;
-        height : 1500px;
+        height : 1000px;
         margin-left : 4rem;
        overflow : hidden;
        position : relative;
@@ -467,7 +467,7 @@ body {
     .shoe-img-wrapper {
         width : 100%;
         display : block;
-        height : 1500px;
+        height : 1000px;
         margin-left : 1rem;
         display : flex;
         /* justify-content : space-between; */
@@ -477,7 +477,7 @@ body {
     }
     .shoe-img-wrapper img {
         object-fit : fill;
-        height : 800px;
+        height : 600px;
         /* border-radius : 10px; */
         width : 100%;
         /* position : absolute; */
@@ -488,18 +488,18 @@ body {
         /* visibility: hidden; */
         z-index : 888;
         top : 20%;
-        font-size : 3rem;
-        width : 70px;
-        height : 70px;
+        font-size : 2rem;
+        width : 50px;
+        height : 50px;
         right : 5%;
     }
     .previous-button {
         /* visibility : hidden; */
         z-index : 888;
         top : 20%;
-        font-size : 3rem;
-        width : 70px;
-        height : 70px;
+        font-size : 2rem;
+        width : 50px;
+        height : 50px;
         left : 5%;
     }
 
@@ -521,10 +521,9 @@ body {
         font-size : 2.7rem;
     }
     .description {
-        font-size : 1.8rem;
+        font-size : 1.5rem;
         /* text-align : center; */
         align-self : center;
-        width : 1000px;
     }
     .price-wrapper {
         padding-left : 3rem;
