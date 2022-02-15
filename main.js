@@ -32,7 +32,7 @@ nextBtn.addEventListener('click', () => {
 
     if(window.innerWidth>=900) {
         console.log("inner width clicked!");
-        img.style.transform = `translateX(${-idx * 550}px)`;
+        img.style.transform = `translateX(${-idx * 575}px)`;
     }else {  
         img.style.transform = `translateX(${-idx * 300}px)`;
     }
@@ -51,7 +51,7 @@ previousBtn.addEventListener('click', () => {
 
     if(window.innerWidth >= 900) {
         console.log("inner width clicked!");
-        img.style.transform = `translateX(${-idx * 550}px)`;
+        img.style.transform = `translateX(${-idx * 575}px)`;
     }else {
         img.style.transform = `translateX(${-idx * 300}px)`;
     }
